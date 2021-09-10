@@ -3,6 +3,8 @@
     margin: 88px 83px 0 150px;
 }
 .promo{
+    display: grid;
+    grid-template-rows: 160px 110px 85px;
 
 }
 .promo__heading{
@@ -12,6 +14,9 @@
     line-height: 70px;
     color: var(--black_color)
 }
+.promo__heading span{
+    font-weight: bold;
+}
 .promo__content{
     font-family: Rubik;
     font-weight: normal;
@@ -20,7 +25,23 @@
     color: var(--black_color)
 }
 .promo__btn{
-
+    outline: none;
+    background-color: var(--red_color);
+    font-family: Rubik;
+    color: white;
+    padding: 17px 78px;
+    font-weight: bold ;
+    font-size: 16px;
+    line-height: 25px;
+    border: 0px;
+    border-radius: 10px;
+}
+.promo__btn:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 2px 12px 20px var(--red_color);
+    background-color: var(--black_color);
+    
 }
 .promo__img{
     background-image: url('../img/Laptop _lamp.svg');
