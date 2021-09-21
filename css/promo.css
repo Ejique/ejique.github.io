@@ -1,10 +1,12 @@
 .promo_wrapper{
     display: flex;
-    margin: 88px 83px 0 150px;
+    width: 82%;
+    margin: 150px auto;
 }
 .promo{
     display: grid;
     grid-template-rows: 160px 110px 85px;
+    width: 700px;
 
 }
 .promo__heading{
