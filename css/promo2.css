@@ -3,7 +3,7 @@
   margin: 0 150px 126px 184px;
 }
 .promo_second__img {
-  background-image: url("../img/Laptop_front.svg");
+  background-image: url("../img/man_selebrate.svg");
   height: 500px;
   width: 50%;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 .promo_second__wrap {
   display: grid;
   grid-template-rows: 30% 24% 46%;
-  width: 30%;
+  width: 32%;
 }
 .promo_second__h3 {
   display: flex;
@@ -46,7 +46,7 @@
 }
 .promo_second__list li:before {
   content: "";
-  background-image: url(../img/tick_sber.svg);
+  background-image: url("../img/tick.svg");
   width: 20px;
   height: 20px;
   background: contain;

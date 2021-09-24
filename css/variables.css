@@ -1,9 +1,7 @@
 :root{
-    --red_color: rgb(219, 71, 26) ;
-    --light_red: rgb(255, 174, 0);
-    --light_grey: rgb(214, 205, 205);
-    --black_color: rgb(23, 14, 66);
-    --black_second_color: rgb(10, 3, 20);
-    
-    
+    --red_color: #F53838;
+    --light_red: #FFECEC;
+    --light_grey:#F6F6F6;
+    --black_color: #0B132A;
+    --black_second_color: #4F5665;
 }

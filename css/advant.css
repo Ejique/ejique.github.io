@@ -1,12 +1,12 @@
-.advant{/*общая обёртка */
+.advant{
     margin: 105px auto;
-    width: 79%;
+    width: 70%;
     border-radius: 10px;
     box-shadow: 2px 2px 30px var(--light_grey);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 130px;
-} 
+}
 .advant__part{
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    background-color: #ffecec;
+    background-color: #FFECEC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,9 +31,9 @@
     margin-right: 52px;
 }
 .advant__img span:hover{
-font-size: 30 px;
-cursor: pointer;
-transition: all 0.5s;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 .advant_wrap__count{
     font-family: Rubik;
@@ -42,12 +42,10 @@ transition: all 0.5s;
     line-height: 30px;
     color: var(--black_color);
 }
-/*TODO сделать анимации обратного исчезновения */
-
-.advant_wrap_info{
+/* TODO сделать анимации обратного исчезнования */
+.advant_wrap__info{
     font-family: Rubik;
     font-size: 20px;
     line-height: 30px;
     color: var(--black_second_color);
-
 }

@@ -1,0 +1,48 @@
+/* общая обёртка */
+.promo3 {
+  display: grid;
+  height: 160px;
+  width: 150px;
+  left: 150px;
+  border-radius: 20px;
+}
+.button_promo3__btn {
+  outline: none;
+  background-color: var(--red_color);
+  color: #fff;
+  padding: 17px 30px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px var(--red_color);
+}
+.button_promo3__btn:hover {
+  transition: all 1s;
+  cursor: pointer;
+  background-color: var(--black_second_color);
+  border-color: var(--black_second_color);
+  color: white;
+}
+.promo3_span {
+  
+  display: flex;
+  align-items: center;
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #4f5665;
+}
+.promo3__h3 {
+  display: flex;
+  align-items: center;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  color: #0B132A;
+}
